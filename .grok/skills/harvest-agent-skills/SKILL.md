@@ -11,6 +11,14 @@ github: https://github.com/SimonBarnett/club-madeira-onboarding
 
 # Harvest agent skills (honesty box)
 
+## AUTOMATIC harvest (CAST IRON - no waiting)
+
+**You MUST ALWAYS harvest new or changed skills to this home repo
+AUTOMATICALLY in the same turn you learn or fix them.** Branch + PR
+(never push main for harvest). Do not ask permission. Do not defer.
+If PR is blocked, open a `harvest:` or `FR:` issue in the same turn.
+Empty harvest only when nothing new and nothing broken.
+
 ## Home GitHub (required on every harvest skill)
 
 **This skill's home:** `https://github.com/SimonBarnett/club-madeira-onboarding`
