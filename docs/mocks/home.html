@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Club Madeira onboarding — dual PASS</title>
+  <style>
+    body { font-family: sans-serif; max-width: 42rem; margin: 2rem auto; color: #111; }
+    h1 { font-size: 1.25rem; }
+    .banner { background: #112; color: #eee; padding: 0.6rem 0.8rem; border-radius: 4px; }
+    .ok { color: #064; }
+    table { border-collapse: collapse; width: 100%; margin: 1rem 0; }
+    th, td { border: 1px solid #333; padding: 0.4rem; text-align: left; font-size: 0.9rem; }
+    code { background: #f4f4f4; padding: 0.1rem 0.3rem; }
+  </style>
+</head>
+<body>
+  <p class="banner"><strong>Invite-only.</strong> Club Madeira affiliates are not open enrollment.</p>
+  <h1>Onboarding — dual gate PASS</h1>
+  <p class="ok">Traffic estimate &ge; £20/mo. Engagement checklist PASS (Club path over Amazon-direct).</p>
+  <table>
+    <tr><th>Gate</th><th>Result</th><th>Evidence</th></tr>
+    <tr><td>Traffic</td><td class="ok">PASS</td><td><code>evidence/traffic.json</code></td></tr>
+    <tr><td>Engagement</td><td class="ok">PASS</td><td><code>evidence/engagement.json</code></td></tr>
+  </table>
+  <p>GUID request allowed. Next: call Club Madeira API (when configured), then add returned value as a <strong>DNS TXT</strong> record. Agent loads the matching DNS provider skill and verifies with dig/DoH.</p>
+  <p>Harvest: honesty box <code>harvest-agent-skills</code> → PR to home repo.</p>
+</body>
+</html>
